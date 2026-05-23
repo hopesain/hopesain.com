@@ -4,15 +4,22 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    background: #fff;
     margin: 0;
-}
+    color: white;
 
+    background-color: #0b1120;
+
+    background-image:
+        linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px);
+
+    background-size: 80px 80px;
+}
 .nav-bar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 4px 90px;
+    padding: 4px 70px;
 
 }
 
