@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: #fff;
+    margin: 0;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 90px;
+
+}
+
+.logo {
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.nav-items {
+    display: flex;
+    gap: 32px;
+    font-weight: 500;
+
+    li {
+        list-style: none;
+        cursor: pointer;
+    }
+}
+
+.content {
+    padding: 0 90px;
+}
+
+.footer {
+    padding: 0 90px;
+}
