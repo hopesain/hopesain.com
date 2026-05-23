@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hope Sain</title>
-    <link rel="stylesheet" href="/css/styles.css">
+
+    <link rel="stylesheet" href="{{ "css/styles.css" | relURL }}">
 </head>
 <body>
     <header class="header">
@@ -13,14 +14,12 @@
 
     <main class="content">
         <button onclick="sayHello()">Button</button>
-
     </main>
 
     <footer class="footer">
 
     </footer>
 
-    <script src="/js/scripts.js"></script>
-
+    <script src="{{ "js/scripts.js" | relURL }}"></script>
 </body>
 </html>
