@@ -109,6 +109,7 @@ body {
 }
 
 .resume-button {
+    text-decoration: none;
     font-weight: 600;
     font-size: 20px;
     background: rgba(22, 27, 34, 0.7);
