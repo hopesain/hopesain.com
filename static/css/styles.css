@@ -59,10 +59,10 @@ body {
 }
 
 .hero-section {
-    min-height: calc(100vh - 120px);
+    min-height: calc(100vh - 180px);
     display: flex;
     align-items: center;
-    gap: 36px;
+    gap: 42px;
 }
 
 .profile-image-section img {
