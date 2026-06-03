@@ -1,18 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hope Sain</title>
-
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-    <header class="header">
-        {{ partial "header.html" . }}
-    </header>
-
-    <main class="content">
+{{ define "main" }}
+    <div class="container">
         <div class="hero-section">
             <div class="profile-image-section">
                 <img src="images/profile/portfolio-profile.jpg" alt="portfolio-profile-image">
@@ -36,12 +23,7 @@
             </div>
 
         </div>
-    </main>
 
-    <footer class="footer">
+    </div>
 
-    </footer>
-
-    <script src="js/scripts.js"></script>
-</body>
-</html>
+{{ end }}

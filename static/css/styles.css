@@ -17,6 +17,13 @@ body {
 
 }
 
+.container {
+    display: block;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .nav-bar {
     display: flex;
     align-items: center;
@@ -53,8 +60,6 @@ body {
 }
 
 .content {
-    width: 80%;
-    margin: 0 auto;
     padding-top: 120px;
 }
 
@@ -123,5 +128,5 @@ body {
 
 
 .footer {
-    padding: 0 70px;
+    padding: 24px 0;
 }
