@@ -2,10 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/hopesain.com/categories/</loc>
-  </url><url>
     <loc>http://localhost:1313/hopesain.com/</loc>
+    <lastmod>2023-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hopesain.com/projects/agrera/</loc>
+    <lastmod>2023-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hopesain.com/tags/agrera/</loc>
+    <lastmod>2023-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hopesain.com/tags/agritech/</loc>
+    <lastmod>2023-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hopesain.com/projects/</loc>
+    <lastmod>2023-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hopesain.com/tags/python/</loc>
+    <lastmod>2023-12-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/hopesain.com/tags/</loc>
+    <lastmod>2023-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hopesain.com/articles/</loc>
+  </url><url>
+    <loc>http://localhost:1313/hopesain.com/articles/hugo-article/</loc>
+  </url><url>
+    <loc>http://localhost:1313/hopesain.com/contact/</loc>
+  </url><url>
+    <loc>http://localhost:1313/hopesain.com/projects/onekhusa-client/</loc>
+  </url><url>
+    <loc>http://localhost:1313/hopesain.com/projects/pawapay-django/</loc>
+  </url><url>
+    <loc>http://localhost:1313/hopesain.com/projects/secure-sense/</loc>
+  </url><url>
+    <loc>http://localhost:1313/hopesain.com/projects/ziwetocare/</loc>
+  </url><url>
+    <loc>http://localhost:1313/hopesain.com/categories/</loc>
   </url>
 </urlset>
