@@ -59,6 +59,11 @@ body {
     cursor: pointer;
 }
 
+.nav-items a {
+    color: inherit;
+    text-decoration: none;
+}
+
 .content {
     padding-top: 120px;
 }
@@ -129,4 +134,10 @@ body {
 
 .footer {
     padding: 24px 0;
+}
+
+.page-not-found {
+    display: flex;
+    flex-direction: column;
+
 }
