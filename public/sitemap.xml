@@ -2,26 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2023-12-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/projects/agrera/</loc>
     <lastmod>2023-12-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/agrera/</loc>
-    <lastmod>2023-12-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/agritech/</loc>
-    <lastmod>2023-12-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/projects/</loc>
-    <lastmod>2023-12-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/python/</loc>
-    <lastmod>2023-12-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2023-12-10T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/</loc>
   </url><url>
     <loc>http://localhost:1313/articles/</loc>
   </url><url>
@@ -37,6 +21,16 @@
   </url><url>
     <loc>http://localhost:1313/projects/ziwetocare/</loc>
   </url><url>
+    <loc>http://localhost:1313/tags/agrera/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/agritech/</loc>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/python/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>
