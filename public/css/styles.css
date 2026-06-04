@@ -147,3 +147,32 @@ body {
     grid-template-columns: repeat(2, 1fr);
     gap: 8px;
 }
+
+.interests {
+    display: flex;
+    flex-direction: column;
+
+    hr {
+        width: 100%;
+        border: none;
+        border-top: 1px solid rgba(255,255,255,0.75);
+        margin: 16px 0;
+    }
+}
+
+.interest-item {
+
+    p {
+        margin: 4px;
+    }
+}
+
+.interest-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: rgba(255,255,255, 0.9);
+}
+
+.interest-description {
+    color: rgba(255,255,255,0.75);
+}
