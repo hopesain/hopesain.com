@@ -3,7 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
 body {
-    font-family: 'Inter', sans-serif;
+    /* font-family: 'Inter', sans-serif; */
+    font-family: poppins;
     margin: 0;
     color: #fff;
 
@@ -14,6 +15,10 @@ body {
         linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px);
 
     background-size: 80px 80px;
+
+    p {
+        margin: 4px;
+    }
 
 }
 
@@ -91,14 +96,14 @@ body {
 }
 
 .hero-title {
-    font-size: 54px;
+    font-size: 56px;
     font-weight: 700;
     line-height: 1.05;
     margin: 0;
 }
 
 .hero-description {
-    font-size: 20px;
+    font-size: 24px;
     line-height: 1.7;
     color: rgba(255,255,255,0.75);
     max-width: 700px;
@@ -139,13 +144,31 @@ body {
 .page-not-found {
     display: flex;
     flex-direction: column;
-
 }
 
+/* Contact Page */
 .contact-page {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 8px;
+}
+
+.contact-information {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.contact-message {
+    font-size: 36px;
+    font-weight: 600;
+    color: rgba(255,255,255, 0.9);
+}
+
+.contact-email {
+    font-size: 22px;
+    color: rgba(255,255,255,0.75);
 }
 
 .interests {
@@ -157,13 +180,6 @@ body {
         border: none;
         border-top: 1px solid rgba(255,255,255,0.75);
         margin: 16px 0;
-    }
-}
-
-.interest-item {
-
-    p {
-        margin: 4px;
     }
 }
 
