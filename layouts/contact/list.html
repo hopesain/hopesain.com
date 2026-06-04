@@ -1,0 +1,30 @@
+{{ define "main" }}
+    <div class="contact-page container">
+        <div class="contact-information">
+            <p class="contact-message">Let's connect & build something meaningful</p>
+            <p class="contact-email">sainhope16@gmail.com</p>
+            <div class="social-links">
+                <a href="/resume/Hope-Sain-Resume.pdf" target="_blank"><button class="resume-button">Resume</button></a>
+                <a href="https://github.com/hopesain" target="_blank"><img src="/images/socials/github.png" alt="github-logo"></a>
+                <a href="https://x.com/HopeSain" target="_blank"><img src="/images/socials/x.png" alt="x-logo"></a>
+                <a href="https://www.linkedin.com/in/hopesain/" target="_blank"><img src="/images/socials/linkedin.png" alt="linkedin-logo"></a>
+            </div>
+            
+        </div>
+
+        <div class="interests">
+            {{ range $index, $interest := site.Data.contact.interests }}
+                <div class="interest-item">
+                    <p class="interest-title">{{ $interest.title }}</p>
+                    <p class="interest-description">{{ $interest.description }}</p>
+                </div>
+
+                <hr>
+
+            {{ end }}
+            
+        </div>
+
+    </div>
+
+{{ end }}
