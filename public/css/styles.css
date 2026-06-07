@@ -145,6 +145,204 @@ body {
     flex-direction: column;
 }
 
+/* ========================
+   PROJECTS LIST
+======================== */
+
+.projects-header {
+    padding: 60px 0 48px;
+}
+
+.projects-header h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 24px;
+    padding-bottom: 80px;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    background: rgba(22, 27, 34, 0.7);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 16px;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.project-card:hover {
+    border-color: rgba(255,255,255,0.2);
+    transform: translateY(-4px);
+}
+
+.project-card__image {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+}
+
+.project-card__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover .project-card__image img {
+    transform: scale(1.04);
+}
+
+.project-card__body {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.project-card__body h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.project-card__body p {
+    font-size: 15px;
+    color: rgba(255,255,255,0.65);
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* ========================
+   TAGS
+======================== */
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tag {
+    font-size: 12px;
+    font-weight: 500;
+    padding: 4px 12px;
+    border-radius: 999px;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    color: rgba(255,255,255,0.75);
+}
+
+/* ========================
+   PROJECT SINGLE
+======================== */
+
+.project-single {
+    padding: 60px 0 80px;
+    max-width: 860px;
+}
+
+.project-single__cover {
+    width: 100%;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,0.08);
+    margin-bottom: 40px;
+}
+
+.project-single__cover img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.project-single__header {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 40px;
+}
+
+.project-single__header h1 {
+    font-size: 42px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.1;
+}
+
+.project-single__header time {
+    font-size: 14px;
+    color: rgba(255,255,255,0.45);
+}
+
+.project-single__content {
+    font-size: 17px;
+    line-height: 1.8;
+    color: rgba(255,255,255,0.85);
+}
+
+.project-single__content h2 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 48px;
+    margin-bottom: 16px;
+}
+
+.project-single__content h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 36px;
+    margin-bottom: 12px;
+}
+
+.project-single__content p {
+    margin-bottom: 24px;
+}
+
+.project-single__content a {
+    color: #fff;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.project-single__content ul,
+.project-single__content ol {
+    padding-left: 24px;
+    margin-bottom: 24px;
+}
+
+.project-single__content li {
+    margin-bottom: 8px;
+    line-height: 1.7;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 60px;
+    color: rgba(255,255,255,0.55);
+    text-decoration: none;
+    font-size: 15px;
+    transition: color 0.2s ease;
+}
+
+.back-link:hover {
+    color: #fff;
+}
+
+
+
+
 /* Contact Page */
 .contact-page {
     display: grid;
@@ -202,3 +400,5 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
+

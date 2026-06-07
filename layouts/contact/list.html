@@ -13,7 +13,7 @@
         </div>
 
         <div class="interests">
-            {{ range $index, $interest := site.Data.contact.interests }}
+            {{ range $index, $interest := hugo.Data.contact.interests }}
                 <div class="interest-item">
                     <p class="interest-title">{{ $interest.title }}</p>
                     <p class="interest-description">{{ $interest.description }}</p>

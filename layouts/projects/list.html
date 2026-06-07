@@ -1,0 +1,47 @@
+{{ define "main" }}
+<div class="container">
+
+    <div class="projects-header">
+        <h1>{{ .Title }}</h1>
+        {{ with .Content }}
+            <div class="projects-intro">{{ . }}</div>
+        {{ end }}
+    </div>
+
+    <div class="projects-grid">
+        {{ range .Pages }}
+
+            {{ $cover := .Resources.GetMatch "cover.*" }}
+
+            <a href="{{ .Permalink }}" class="project-card">
+
+                {{ if $cover }}
+                    {{ $image := $cover.Resize "600x webp" }}
+                    <div class="project-card__image">
+                        <img src="{{ $image.RelPermalink }}" alt="{{ .Title }}">
+                    </div>
+                {{ end }}
+
+                <div class="project-card__body">
+                    <h2>{{ .Title }}</h2>
+
+                    {{ with .Params.summary }}
+                        <p>{{ . }}</p>
+                    {{ end }}
+
+                    {{ with .Params.tags }}
+                        <ul class="tags">
+                            {{ range . }}
+                                <li class="tag">{{ . }}</li>
+                            {{ end }}
+                        </ul>
+                    {{ end }}
+                </div>
+
+            </a>
+
+        {{ end }}
+    </div>
+
+</div>
+{{ end }}
